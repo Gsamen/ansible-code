@@ -1,10 +1,11 @@
 [qaserver]
 
-3.237.80.72
+3.230.127.223
 
 [devserver]
 
-3.82.226.19
+3.87.79.146
+:wq
 
 #[children:devqa]
 
@@ -13,7 +14,7 @@
 
 [qaserver:vars]
 
-#ansible_ssh_user=centos
+#ansible_ssh_user=centosgit
 
 [all:vars]
 
